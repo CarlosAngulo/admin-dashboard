@@ -1,3 +1,11 @@
-<p>
-  graphics1 works!
-</p>
+<div class="col-6" *ngFor="let key of objectKeys(graphics)">
+  <div class="card">
+    <div class="card-body">
+      {{graphics[key].leyenda}}
+      <app-graphic-doughnut
+          [data]="graphics[key].data"
+          [labels]="graphics[key].labels"
+          [chartType]="graphics[key].type"></app-graphic-doughnut>
+    </div>
+  </div>
+</div>
