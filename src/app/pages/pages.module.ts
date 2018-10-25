@@ -11,6 +11,7 @@ import { ChartsModule } from 'ng2-charts';
 
 import { IncrementComponent } from '../components/increment/increment.component';
 import { GraphicDughnutComponent } from '../components/graphic-doughnut/graphic-doughnut.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
     declarations: [
@@ -19,7 +20,8 @@ import { GraphicDughnutComponent } from '../components/graphic-doughnut/graphic-
         ProgressComponent,
         Graphics1Component,
         IncrementComponent,
-        GraphicDughnutComponent
+        GraphicDughnutComponent,
+        AccountSettingsComponent
     ],
     exports: [
         PagesComponent,

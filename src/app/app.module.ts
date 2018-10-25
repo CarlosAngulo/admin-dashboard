@@ -3,10 +3,13 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 //Routes
-import { APP_ROUTES } from 'src/app/app.routes';
+import { APP_ROUTES } from './app.routes';
+
+//Services
+import { ServiceModule } from './services/service.module';
 
 //Modules
-import { PagesModule } from 'src/app/pages/pages.module';
+import { PagesModule } from './pages/pages.module';
 
 //Components
 import { AppComponent } from './app.component';
@@ -23,6 +26,7 @@ import { RegisterComponent } from './login/register.component';
     BrowserModule,
     PagesModule,
     FormsModule,
+    ServiceModule,
     APP_ROUTES
   ],
   providers: [],
