@@ -12,6 +12,8 @@ import { ChartsModule } from 'ng2-charts';
 import { IncrementComponent } from '../components/increment/increment.component';
 import { GraphicDughnutComponent } from '../components/graphic-doughnut/graphic-doughnut.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { ObservablesComponent } from './observables/observables.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
     declarations: [
@@ -21,7 +23,9 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
         Graphics1Component,
         IncrementComponent,
         GraphicDughnutComponent,
-        AccountSettingsComponent
+        AccountSettingsComponent,
+        ObservablesComponent,
+        RxjsComponent
     ],
     exports: [
         PagesComponent,
